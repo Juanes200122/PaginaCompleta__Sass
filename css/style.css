@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main__masterContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main__masterContainer .conatiner_senior {
+  width: 100%;
+  max-width: 2000px;
+  height: 100%;
+  overflow: hidden;
+}
+.main__masterContainer .conatiner_senior .containerNumber {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/bg-header-desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__masterContainer .conatiner_senior .containerNumber .class__namber {
+  width: 90%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main__masterContainer .conatiner_senior .containerNumber .class__namber .divNamber1 {
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color: rgb(79, 206, 140);
+}
+.main__masterContainer .conatiner_senior .containerNumber .class__namber .divNamber2 {
+  width: 80%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main__masterContainer .conatiner_senior .containerNumber .class__namber .divNamber2 h3 {
+  width: 60%;
+  font-size: 50px;
+}
+.main__masterContainer .conatiner_senior .containerNumber .class__namber .divNamber2 h3 p {
+  font-size: 25px;
+  color: rgb(178, 178, 178);
+}
+.main__masterContainer .conatiner_senior .containerNumber .class__namber .divNamber3 {
+  width: 80%;
+  height: auto;
+}
+.main__masterContainer .conatiner_senior .containerNumber .class__namber .divNamber3 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 1%;
+}
+.main__masterContainer .conatiner_senior .containerNumber .class__namber .divNamber3 a {
+  box-shadow: 7px 7px 17px rgb(200, 200, 200);
+  padding: 8px 20px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+}
+.main__masterContainer .conatiner_senior .containerNumber .class__namber .divNamber3 a:nth-child(1) {
+  background-color: rgb(79, 206, 140);
+}
+.main__masterContainer .conatiner_senior .containerNumber .class__namber .divNamber3 a:nth-child(1):hover {
+  box-shadow: 7px 7px 17px rgb(188, 226, 206);
+}
+.main__masterContainer .conatiner_senior .containerNumber .class__namber .divNamber3 a:nth-child(2) {
+  background-color: rgb(151, 93, 208);
+}
+.main__masterContainer .conatiner_senior .containerNumber .class__namber .divNamber3 a:nth-child(2):hover {
+  box-shadow: 7px 7px 17px rgb(206, 181, 231);
+}
+.main__masterContainer .container_titlleAcess {
+  height: auto;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main__masterContainer .container_titlleAcess .divNamber2 {
+  width: 100%;
+  text-align: center;
+}
+.main__masterContainer .container_titlleAcess .divNamber2 h2 {
+  font-size: 40px;
+}
+.main__masterContainer .container_titlleAcess .divNamber2 p {
+  font-size: 25px;
+  color: rgb(178, 178, 178);
+}
+.main__masterContainer .container_titlleAcess .container__blacklist {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.main__masterContainer .container_titlleAcess .container__blacklist div {
+  height: auto;
+  width: 30%;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+.main__masterContainer .container_titlleAcess .container__blacklist div h4 {
+  font-size: 30px;
+}
+.main__masterContainer .container_titlleAcess .container__blacklist div p {
+  font-size: 25px;
+  color: rgb(178, 178, 178);
+}
+.main__masterContainer .container_titlleAcess .conatainer__logos {
+  width: 80%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 0px 120px 0px;
+}
+.main__masterContainer .container_titlleAcess .conatainer__logos div {
+  width: 100%;
+  display: flex;
+  gap: 200px;
+}
+.main__masterContainer .container__tittleClipboard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.main__masterContainer .container__tittleClipboard .clipboard {
+  width: 50%;
+}
+.main__masterContainer .container__tittleClipboard .clipboard h5 {
+  font-size: 40px;
+}
+.main__masterContainer .container__tittleClipboard .clipboard p {
+  font-size: 25px;
+  color: rgb(178, 178, 178);
+}
+.main__masterContainer .container__tittleClipboard .divNamber3 {
+  width: 100%;
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: start;
+  gap: 1%;
+}
+.main__masterContainer .container__tittleClipboard .divNamber3 a {
+  box-shadow: 7px 7px 17px rgb(200, 200, 200);
+  padding: 8px 20px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+}
+.main__masterContainer .container__tittleClipboard .divNamber3 a:nth-child(1) {
+  background-color: rgb(79, 206, 140);
+}
+.main__masterContainer .container__tittleClipboard .divNamber3 a:nth-child(1):hover {
+  box-shadow: 7px 7px 17px rgb(188, 226, 206);
+}
+.main__masterContainer .container__tittleClipboard .divNamber3 a:nth-child(2) {
+  background-color: rgb(151, 93, 208);
+}
+.main__masterContainer .container__tittleClipboard .divNamber3 a:nth-child(2):hover {
+  box-shadow: 7px 7px 17px rgb(206, 181, 231);
+}
+.main__masterContainer .Container__footer {
+  width: 100%;
+  height: auto;
+  background-color: rgb(245, 245, 245);
+  margin-top: 90px;
+}
+.main__masterContainer .Container__footer .container__second {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+.main__masterContainer .Container__footer .container__second .tittle {
+  text-align: end;
+  width: 20%;
+}
+.main__masterContainer .Container__footer .container__second .tittle svg {
+  color: rgb(79, 206, 140);
+}
+.main__masterContainer .Container__footer .container__second .tittle__kills {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9%;
+}
+.main__masterContainer .Container__footer .container__second .tittle__kills div h5 {
+  font-size: 15px;
+  color: rgb(178, 178, 178);
+}
+.main__masterContainer .Container__footer .container__second .conatiner__tolbars {
+  width: 20%;
+  text-align: end;
+  display: flex;
+  gap: 20px;
+  padding: 0px 90px 0px 0px;
+}
+.main__masterContainer .class__snippets {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main__masterContainer .class__snippets .divNamber1 {
+  width: 60%;
+  height: auto;
+  text-align: center;
+}
+.main__masterContainer .class__snippets .divNamber1 h2 {
+  font-size: 40px;
+}
+.main__masterContainer .class__snippets .divNamber1 p {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(178, 178, 178);
+}
+.main__masterContainer .class__snippets .Conatiner__imagenNamber {
+  width: 100%;
+  display: flex;
+}
+.main__masterContainer .class__snippets .Conatiner__imagenNamber .div1 {
+  width: 50%;
+  padding-top: 1%;
+}
+.main__masterContainer .class__snippets .Conatiner__imagenNamber .div1 img {
+  translate: -30px;
+}
+.main__masterContainer .class__snippets .Conatiner__imagenNamber .div2 {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.main__masterContainer .class__snippets .Conatiner__imagenNamber .div2 div {
+  width: 60%;
+}
+.main__masterContainer .class__snippets .Conatiner__imagenNamber .div2 div h3 {
+  font-size: 30px;
+}
+.main__masterContainer .class__snippets .Conatiner__imagenNamber .div2 div p {
+  font-size: 19px;
+  color: rgb(178, 178, 178);
+}
+
+/*# sourceMappingURL=style.css.map */
